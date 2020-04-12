@@ -9,6 +9,12 @@ In this project, we are planning to implement pose estimation technique either b
 
 To improve accuracy, we then considered nose coordinates as well. We calculated the area of triangle 2 formed by these three coordinates.The ratio of area of normal posture and fatigued posture is then calculated.The thresholding point for fatigue was chosen and based on that we were detecting fatigue.We were able to detect fatigue in ﬁve out of six videos of our dataset.
 
-For improving our results , we are now implementing a new approach using bezier curves What we have done till now is that we have analysed the pattern of curves and distinguished curves for fatigue and non-fatigue posture.We are generalising our threshold to distinguish between both the postures and we are getting quite good results
+For improving our results , we are now implementing a new approach using bezier curves What we have done till now is that we have analysed the pattern of curves and distinguished curves for fatigue and non-fatigue posture.We are generalising our threshold to distinguish between both the postures and we are getting quite good results.
+
+--------------------Running the code for fatigue Detection--------------------
+
+Use command : python bezier_wrnchAI.py --videos [Location of the Videos] --models [Location of the models]
+
+Run the file after installing wrnchAI software
 
 
